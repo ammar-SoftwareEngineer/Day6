@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url("./Ammar.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+  position: relative;
+}
+
+header div {
+  margin-left: 40px;
+  width: 500px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 100px;
+}
+header div h1 {
+  font-size: 60px;
+}
+header div p {
+  margin-top: 30px;
+  font-size: 40px;
+}
+header div button {
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  padding: 15px;
+}
